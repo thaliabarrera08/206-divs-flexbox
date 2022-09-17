@@ -13,7 +13,7 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.5em;
 }
 
 /*
@@ -97,34 +97,38 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background: url(../img/bkgd.jpg) no-repeat center center fixed ;  
+  background-size: cover;
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
+  padding: 2em 2em 1em;
+  font-size: 1em;
   height: 100%;
-}
+  }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
-}
+  
+  }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: rgb(61, 58, 58);
+  border: dotted rgb(182, 179, 179);
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #9e6c69;
   height: 300px;
+  margin: 2px 3px 2px;
+  padding: 2px 3px 2px;
   width: 30%;
 }
 
