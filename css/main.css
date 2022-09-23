@@ -100,36 +100,84 @@ html {
   background: url(../img/bkgd.jpg) no-repeat center center fixed ;  
   background-size: cover;
   height: 100%;
-}
+  width: 100%;
+  }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em 2em 1em;
-  font-size: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  text-align: center;
+  font-size: 1.1em;
+  color:#222;
   height: 100%;
+  padding: 0 2em ;
   }
+
+
+header,
+footer
+{
+background-color: rgb(124, 171, 151);
+border: solid rgb(90,90,90);
+font-size: 24px;
+line-height: 1.4em;
+text-align: left;
+color:#222;
+height: 90px;
+width: 100%;  
+margin: 1em 0 1em 0;
+padding: 2em 0 2em 0;
+
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    color:rgb(67, 66, 66)
+}
+
+main {
+background-color: rgb(182, 153, 111);
+border: solid rgb(90, 90, 90);
+font-size:20px;
+text-align: center;
+height: 250px;
+padding: 6em 2em 3em 2em;
+width: 100%;
+}
+
+
+header,
+footer
+main{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow:row wrap;
   
   }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: rgb(61, 58, 58);
-  border: dotted rgb(182, 179, 179);
+  color: #222;
+  border: solid rgb(90, 90, 90);
+  line-height: 1.4em;
+  font-size: 1.1em;
+  background-color: #9e6c69;
+  
+  height: 300px;
+  width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.5em;
-  font-size: 1em;
-  background-color: #9e6c69;
-  height: 300px;
-  margin: 2px 3px 2px;
-  padding: 2px 3px 2px;
-  width: 30%;
 }
 
 
